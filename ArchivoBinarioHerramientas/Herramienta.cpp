@@ -10,7 +10,7 @@ void creararchivo(){
 		cout << "ERROR ARCHIVO" << endl;
 		return;
 	}
-	for (int x = 0; x < 50; x++) {
+	for (int x = 0; x < 100; x++) {
 		Herramienta nuevo;
 		nuevo.codigo = -1;
 		strcpy(nuevo.nombre, "");

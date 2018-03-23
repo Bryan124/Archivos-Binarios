@@ -6,6 +6,7 @@ using namespace std;
 
 int main() {
 	int opcion;
+	//Cada vez que se ejecuta genera otros 100 espacios vacios, para evitar esto se puede comentar la funcion creararchivo();
 	creararchivo();
 	do {
 		cout << "* * * * * M E N U * * * * *" << endl;
@@ -13,6 +14,7 @@ int main() {
 		cout << "2. Registrar Herramienta" << endl;
 		cout << "3. Modificar Herramienta" << endl;
 		cout << "4. Eliminar Herramienta" << endl;
+		cout << "5. Salir" << endl;
 		cin >> opcion;
 		switch (opcion) {
 		case 1: {
@@ -36,8 +38,6 @@ int main() {
 			break;
 		}
 		}
-
-	} while (opcion != 0);
-
+	} while (opcion != 5);
 	system("pause>NUL");
 }
